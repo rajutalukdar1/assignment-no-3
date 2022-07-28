@@ -216,22 +216,55 @@
         </section>
         <div class="text-center">
             <a href="https://www.facebook.com/Rajuvai013" target="_blank"> <button type="button"
-                    class="btn btn-primary btn-lg">Viwe
-                    All</button> </a>
+                    class="btn btn-primary btn-lg">See More Courses</button> </a>
         </div>
-        <!-- main section 3  -->
-        <section class="container mt-5">
-            <div class="bg-info p-5 d-flex justify-content-evenly align-items-center">
+        <!-----------------------
+                 main section 3 
+                ---------------------->
+        <section class="container mx-auto bg-primary my-5 border rounded-2">
+            <div class="d-lg-flex d-md-block py-5 mx-5 px-4 my-3 justify-content-between align-items-center">
                 <div>
-                    <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the <br> readable content
-                        of a page when looking at its layout.</p>
+                    <h1 class="h1 fw-bold text-white">Ready to join?</h1>
+                    <p class="text-white">It is a long established fact that a reader will be distracted by the <br>
+                        readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
-                    <a href="https://www.facebook.com/Rajuvai013" target="_blank"><button type="button"
-                            class="btn btn-outline-success text-white">Success</button></a>
-                </div>
+                    <button type="button" class="btn text-primary fw-semibold bg-white py-3 px-4 rounded-3"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register
+                        Now</button>
 
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Please enter your Information:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="email-name" class="col-form-label">E-mail:</label>
+                                            <input type="email" class="form-control" id="email-name"
+                                                placeholder="Enter your mail" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="password-name" class="col-form-label">Password:</label>
+                                            <input type="password" class="form-control" id="password-name"
+                                                placeholder="Type your password" required>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -269,21 +302,21 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
                             Accordion Item #2
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element.
-                            These classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default
-                            variables. It's also worth noting that just about any HTML can go within the
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until the collapse plugin adds the appropriate classes that we use to style each
+                            element. These classes control the overall appearance, as well as the showing and hiding
+                            via CSS transitions. You can modify any of this with custom CSS or overriding our
+                            default variables. It's also worth noting that just about any HTML can go within the
                             <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
@@ -329,10 +362,13 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
         <!-- Accordion End  -->
+
+        <!-- Bounas section start -->
+
+
+        <!-- Bounas section End -->
 
     </main>
     <!-- main End  -->
