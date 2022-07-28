@@ -5,5 +5,5 @@ body {
 .img-canter {
     bottom: initial;
     top: 50%;
-    transform: translateY(-35%);
+    transform: translateY(-40%);
 }
